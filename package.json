@@ -5,6 +5,7 @@
     "supertest": "^7.0.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "mkdir -p build && echo '<!DOCTYPE html><html><head><title>Hello</title></head><body><h1>Hello, World!</h1></body></html>' > build/index.html"
   }
 }
